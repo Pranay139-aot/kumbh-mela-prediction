@@ -1,0 +1,453 @@
+event_name,date,day_type,sector_zone,parking_walk_km,shuttle_distance_km,has_expanded_ghat,throughput_tier,days_since_start,festival_proximity_days,temperature_c,crowd_risk_level,is_synthetic,data_source_notes
+Nashik Simhastha 2015 - 1st Shahi Snan,2015-08-29,Shahi Snan,Ram Kund - Panchavati,1.5,8.0,0,3,15,0,28.5,Extreme,0,Sourced: ~3.5M pilgrims bathed on 1st Shahi Snan at Ram Kund (TOI/Divya Bhaskar 2015 reports).
+Nashik Simhastha 2015 - 2nd Shahi Snan,2015-09-13,Shahi Snan,Ram Kund - Panchavati,1.5,8.0,0,3,30,0,30.0,Extreme,0,Sourced: ~4.0M peak turnout reported at Ram Kund & Godavari ghats (Indian Express 2015).
+Nashik Simhastha 2015 - 3rd Shahi Snan,2015-09-18,Shahi Snan,Trimbakeshwar Inner Ghats,2.2,12.0,0,3,35,0,29.0,Extreme,0,Sourced: ~3.0M pilgrims at Kushaavarta Kund Trimbakeshwar (Business Standard 2015).
+Nashik Simhastha 2015 - Flag Hoisting Day,2015-08-14,Normal Day,Tapovan,1.0,5.0,0,2,0,5,27.0,Medium,0,Sourced: ~800k estimated attendance for opening ceremony at Tapovan flag hoisting.
+Nashik Simhastha 2015 - Regular Midweek Day,2015-08-25,Normal Day,Sadhugram,0.8,4.0,0,1,11,4,26.5,Low,0,Sourced: Moderate daily pilgrim movement (~300k) recorded in non-peak weekday.
+Prayagraj Kumbh 2019 - Mauni Amavasya,2019-02-04,Amavasya,Ram Kund - Panchavati,2.5,14.0,0,3,20,0,22.0,Extreme,0,Sourced: ~50M single-day peak attendance at Prayagraj Sangam (Official UP Govt release 2019).
+Prayagraj Kumbh 2019 - Makar Sankranti,2019-01-15,Shahi Snan,Ram Kund - Panchavati,2.0,10.0,1,2,1,0,20.0,High,0,Sourced: ~22.5M took holy dip on opening Shahi Snan.
+Haridwar Kumbh 2021 - Somvati Amavasya,2021-04-12,Amavasya,Trimbakeshwar Inner Ghats,2.2,11.0,0,3,12,0,31.0,High,0,Sourced: ~3.1M bathers at Har Ki Pauri under COVID restrictions.
+Prayagraj Maha Kumbh 2025 - Paush Purnima,2025-01-13,Shahi Snan,Ram Kund - Panchavati,2.1,12.0,1,1,1,0,19.5,High,0,Sourced: ~17.5M pilgrims recorded on opening day of 2025 Maha Kumbh.
+Prayagraj Maha Kumbh 2025 - Mauni Amavasya,2025-01-29,Amavasya,Ram Kund - Panchavati,2.8,15.0,1,2,17,0,21.0,Extreme,0,Sourced: Estimated ~45-50M single-day turnout at Triveni Sangam.
+Nashik 2015 - Post-Shahi Snan Weekend,2015-09-05,Weekend,Tapovan,1.2,6.0,0,2,22,2,27.5,Medium,0,Sourced: Heavy weekend surge (~1.2M) following 1st Shahi Snan.
+Nashik 2015 - Outer Transit Rajur Bahula,2015-08-29,Shahi Snan,Outer Transit & Parking,3.5,16.0,0,1,15,0,28.5,High,0,Sourced: Rajur Bahula parking hub holding peak traffic from Mumbai corridor.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Outer Transit & Parking,2.9,13.57,0,1,11,5,23.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Sadhugram,1.33,4.06,1,1,1,7,24.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Normal Day,Trimbakeshwar Inner Ghats,1.54,12.2,0,2,36,1,34.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 31,2027-08-01,Weekend,Trimbakeshwar Inner Ghats,1.58,12.86,0,2,30,4,34.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Shahi Snan,Tapovan,0.82,5.39,1,2,23,0,29.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Tapovan,1.42,7.28,0,2,39,2,32.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Shahi Snan,Trimbakeshwar Inner Ghats,3.07,8.71,0,2,35,0,26.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Amavasya,Tapovan,1.53,5.66,1,1,57,0,22.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Ram Kund - Panchavati,2.5,10.24,1,2,11,1,23.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Amavasya,Trimbakeshwar Inner Ghats,1.61,10.49,0,3,19,0,30.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Amavasya,Ram Kund - Panchavati,2.75,11.09,1,1,22,0,25.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 19,2027-08-19,Normal Day,Ram Kund - Panchavati,2.65,7.5,1,2,18,3,25.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Normal Day,Sadhugram,1.12,4.48,1,1,41,6,23.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Normal Day,Sadhugram,0.86,7.53,1,1,19,1,25.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Weekend,Ram Kund - Panchavati,1.21,9.06,1,1,49,6,23.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 25,2027-08-25,Normal Day,Ram Kund - Panchavati,1.61,7.48,1,2,24,1,23.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Shahi Snan,Sadhugram,1.0,3.26,1,1,36,0,25.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 27,2027-08-27,Normal Day,Trimbakeshwar Inner Ghats,2.51,8.65,0,2,26,4,32.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Tapovan,0.91,9.01,1,1,38,3,22.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 49,2027-08-19,Normal Day,Sadhugram,0.6,7.7,1,1,48,2,27.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Normal Day,Ram Kund - Panchavati,1.53,9.25,1,1,40,5,24.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 6,2027-08-06,Normal Day,Ram Kund - Panchavati,2.64,9.8,1,1,5,6,31.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Amavasya,Ram Kund - Panchavati,1.33,6.97,1,2,38,0,22.1,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Normal Day,Tapovan,1.99,5.06,0,1,29,3,24.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Sadhugram,0.59,4.84,1,1,39,4,25.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Weekend,Tapovan,1.6,9.19,1,1,21,4,29.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Weekend,Ram Kund - Panchavati,1.65,11.3,1,3,59,3,26.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 18,2027-08-18,Shahi Snan,Trimbakeshwar Inner Ghats,2.15,14.81,0,2,17,0,29.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Shahi Snan,Tapovan,0.88,5.25,1,1,55,0,25.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 43,2027-08-13,Amavasya,Ram Kund - Panchavati,1.78,7.76,1,3,42,0,33.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Shahi Snan,Tapovan,1.55,5.17,0,1,0,0,22.7,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 28,2027-08-28,Weekend,Sadhugram,0.79,5.95,1,1,27,3,22.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Normal Day,Sadhugram,1.27,4.08,1,1,7,3,30.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Weekend,Trimbakeshwar Inner Ghats,2.71,8.33,0,3,7,7,31.7,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Normal Day,Tapovan,1.64,6.45,0,1,57,6,25.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Weekend,Outer Transit & Parking,2.99,13.49,0,1,38,3,31.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Tapovan,0.82,4.7,0,1,21,5,33.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Normal Day,Outer Transit & Parking,2.65,13.19,0,1,28,1,30.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 16,2027-08-16,Weekend,Tapovan,1.92,7.01,1,2,15,1,30.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Amavasya,Trimbakeshwar Inner Ghats,2.59,11.67,1,3,23,0,27.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 13,2027-08-13,Shahi Snan,Tapovan,1.13,5.29,1,1,12,0,30.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Tapovan,1.14,4.71,1,2,1,6,33.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Weekend,Outer Transit & Parking,2.64,14.55,0,1,58,3,29.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Outer Transit & Parking,3.11,11.91,0,1,14,4,26.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Trimbakeshwar Inner Ghats,3.02,11.11,0,3,49,2,23.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Shahi Snan,Sadhugram,0.58,3.46,1,1,29,0,29.8,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Weekend,Outer Transit & Parking,3.18,10.73,0,1,45,5,28.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Outer Transit & Parking,2.21,16.09,0,1,21,1,30.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Outer Transit & Parking,3.34,11.17,0,1,13,2,28.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Amavasya,Trimbakeshwar Inner Ghats,3.04,12.74,0,3,14,0,28.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Sadhugram,0.93,4.27,1,1,14,2,27.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Weekend,Ram Kund - Panchavati,1.58,8.4,1,1,44,4,28.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Normal Day,Tapovan,0.85,9.35,1,2,0,7,23.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Ram Kund - Panchavati,2.79,10.18,1,2,13,2,33.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 7,2027-08-07,Shahi Snan,Trimbakeshwar Inner Ghats,2.07,9.36,1,2,6,0,25.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Normal Day,Sadhugram,0.81,7.07,1,1,41,3,30.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Sadhugram,1.23,6.07,1,1,49,7,27.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Shahi Snan,Ram Kund - Panchavati,2.4,8.36,1,2,22,0,22.8,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Normal Day,Ram Kund - Panchavati,2.31,9.21,1,3,0,1,29.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 28,2027-08-28,Normal Day,Outer Transit & Parking,3.43,14.85,0,1,27,1,25.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Weekend,Tapovan,1.61,7.12,1,1,21,1,33.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Amavasya,Ram Kund - Panchavati,1.97,8.52,1,2,35,0,32.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Shahi Snan,Trimbakeshwar Inner Ghats,2.53,13.09,1,2,58,0,31.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Shahi Snan,Tapovan,1.94,4.88,1,1,51,0,25.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Normal Day,Tapovan,1.05,7.48,1,1,37,2,28.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 11,2027-08-11,Weekend,Trimbakeshwar Inner Ghats,3.02,11.79,1,2,10,2,24.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Normal Day,Outer Transit & Parking,2.05,14.39,0,1,20,2,28.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Normal Day,Tapovan,1.76,7.77,0,2,41,1,34.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Normal Day,Tapovan,1.52,9.92,1,2,52,1,25.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 3,2027-08-03,Weekend,Tapovan,1.66,9.37,1,1,2,2,23.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Sadhugram,1.24,3.91,1,1,23,1,29.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Normal Day,Ram Kund - Panchavati,2.0,6.52,1,2,40,5,31.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Normal Day,Sadhugram,1.4,6.04,1,1,22,2,25.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 7,2027-08-07,Shahi Snan,Outer Transit & Parking,2.23,11.97,0,1,6,0,24.1,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Normal Day,Ram Kund - Panchavati,1.86,11.89,0,1,4,3,34.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Sadhugram,1.04,5.38,1,1,49,5,32.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Normal Day,Tapovan,1.41,5.45,0,2,19,3,25.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Normal Day,Sadhugram,0.95,5.74,1,1,35,2,29.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 6,2027-08-06,Normal Day,Tapovan,0.8,4.7,1,2,5,1,32.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 57,2027-08-27,Shahi Snan,Sadhugram,0.68,3.33,1,1,56,0,31.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 9,2027-08-09,Weekend,Outer Transit & Parking,2.3,11.31,0,1,8,5,24.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 19,2027-08-19,Normal Day,Trimbakeshwar Inner Ghats,2.66,11.62,1,3,18,4,30.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Ram Kund - Panchavati,1.81,9.26,1,2,13,6,23.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Normal Day,Trimbakeshwar Inner Ghats,2.41,15.15,1,2,47,4,26.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 3,2027-08-03,Normal Day,Ram Kund - Panchavati,2.42,11.26,1,3,2,4,23.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Normal Day,Trimbakeshwar Inner Ghats,2.59,13.55,1,2,43,5,26.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Normal Day,Tapovan,1.31,5.73,1,2,20,2,23.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Weekend,Sadhugram,1.2,7.61,1,1,55,4,31.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Normal Day,Trimbakeshwar Inner Ghats,1.63,8.83,1,3,22,1,23.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Normal Day,Ram Kund - Panchavati,1.56,9.65,1,2,19,2,24.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Weekend,Tapovan,1.44,9.52,1,1,20,2,31.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Sadhugram,0.67,3.17,1,1,14,4,26.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Weekend,Sadhugram,1.16,3.89,1,1,37,1,34.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Outer Transit & Parking,2.46,13.18,0,1,11,2,27.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Weekend,Outer Transit & Parking,3.25,14.7,0,1,37,2,25.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 25,2027-08-25,Normal Day,Ram Kund - Panchavati,1.45,7.09,1,3,24,4,26.9,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 25,2027-08-25,Normal Day,Tapovan,0.99,8.3,1,1,24,1,24.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Normal Day,Ram Kund - Panchavati,2.24,7.43,0,1,47,1,31.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Amavasya,Sadhugram,1.44,3.71,1,1,57,0,27.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 13,2027-08-13,Weekend,Ram Kund - Panchavati,1.49,9.5,1,3,12,1,32.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Tapovan,0.84,8.98,1,2,49,2,26.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 9,2027-08-09,Shahi Snan,Trimbakeshwar Inner Ghats,2.98,11.9,1,3,8,0,27.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Normal Day,Ram Kund - Panchavati,1.61,6.84,1,3,32,4,28.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 32,2027-08-02,Normal Day,Tapovan,1.4,4.4,1,1,31,6,31.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 16,2027-08-16,Normal Day,Outer Transit & Parking,3.1,12.01,0,1,15,2,30.2,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Amavasya,Outer Transit & Parking,2.78,10.38,0,1,22,0,24.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 6,2027-08-06,Weekend,Sadhugram,0.57,7.19,1,1,5,5,27.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Weekend,Tapovan,0.96,6.9,1,1,23,7,24.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Amavasya,Ram Kund - Panchavati,2.15,8.01,1,1,29,0,23.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 28,2027-08-28,Weekend,Tapovan,0.89,4.01,1,1,27,1,23.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Normal Day,Sadhugram,1.45,5.23,1,1,55,1,24.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Weekend,Outer Transit & Parking,2.96,17.84,0,1,45,5,33.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Weekend,Sadhugram,0.54,6.53,1,1,59,7,34.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Shahi Snan,Outer Transit & Parking,2.29,10.92,0,1,43,0,27.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 51,2027-08-21,Weekend,Trimbakeshwar Inner Ghats,2.91,8.3,1,2,50,2,23.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 35,2027-08-05,Normal Day,Trimbakeshwar Inner Ghats,2.42,13.29,1,3,34,6,27.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Amavasya,Tapovan,1.84,4.13,1,1,1,0,34.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Normal Day,Outer Transit & Parking,2.41,13.19,0,1,28,4,23.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Normal Day,Trimbakeshwar Inner Ghats,1.69,10.84,0,2,44,2,25.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Trimbakeshwar Inner Ghats,2.84,8.72,0,3,13,7,34.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Normal Day,Outer Transit & Parking,2.1,13.21,0,1,59,5,32.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 11,2027-08-11,Normal Day,Sadhugram,0.69,6.9,1,1,10,2,26.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 32,2027-08-02,Normal Day,Ram Kund - Panchavati,2.04,7.56,1,2,31,4,35.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Weekend,Outer Transit & Parking,2.87,10.73,0,1,32,4,33.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Normal Day,Trimbakeshwar Inner Ghats,2.95,8.28,0,3,28,1,31.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Normal Day,Sadhugram,0.58,4.1,1,1,43,3,30.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Normal Day,Ram Kund - Panchavati,2.03,11.44,1,2,3,6,29.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Normal Day,Trimbakeshwar Inner Ghats,2.7,14.7,1,3,51,6,30.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Weekend,Outer Transit & Parking,2.04,16.61,0,1,52,6,23.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 34,2027-08-04,Normal Day,Trimbakeshwar Inner Ghats,1.94,9.55,0,2,33,5,29.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Tapovan,1.74,4.64,1,1,38,3,34.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Shahi Snan,Outer Transit & Parking,2.26,16.17,0,1,47,0,34.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Normal Day,Trimbakeshwar Inner Ghats,2.09,12.97,0,3,4,4,34.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Sadhugram,1.32,4.26,1,1,49,2,22.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Normal Day,Tapovan,1.34,4.98,1,2,59,3,24.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Weekend,Sadhugram,0.53,6.66,1,1,52,7,33.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Amavasya,Trimbakeshwar Inner Ghats,1.97,15.87,0,3,23,0,25.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Amavasya,Sadhugram,0.69,7.34,1,1,58,0,32.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Weekend,Tapovan,0.96,4.2,1,2,45,4,32.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Trimbakeshwar Inner Ghats,1.88,9.29,1,2,14,4,29.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 9,2027-08-09,Normal Day,Outer Transit & Parking,3.02,13.16,0,1,8,3,34.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 47,2027-08-17,Weekend,Trimbakeshwar Inner Ghats,2.32,8.84,0,3,46,1,23.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 43,2027-08-13,Normal Day,Trimbakeshwar Inner Ghats,1.52,10.61,1,2,42,4,26.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 49,2027-08-19,Weekend,Tapovan,1.0,4.63,1,2,48,2,22.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 43,2027-08-13,Shahi Snan,Ram Kund - Panchavati,2.59,10.28,1,1,42,0,32.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 3,2027-08-03,Normal Day,Sadhugram,0.94,6.62,1,1,2,1,29.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Weekend,Ram Kund - Panchavati,2.76,8.02,0,2,52,2,30.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Weekend,Outer Transit & Parking,2.98,11.6,0,1,59,7,30.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 51,2027-08-21,Normal Day,Ram Kund - Panchavati,2.74,8.5,1,2,50,1,31.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 35,2027-08-05,Normal Day,Sadhugram,1.23,5.43,1,1,34,3,33.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Shahi Snan,Tapovan,1.14,6.15,1,1,59,0,32.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Tapovan,1.02,9.13,1,1,14,7,33.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Ram Kund - Panchavati,2.24,7.87,1,3,39,1,22.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 54,2027-08-24,Normal Day,Sadhugram,0.83,5.24,1,1,53,3,30.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Outer Transit & Parking,3.06,11.34,0,1,14,4,24.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 27,2027-08-27,Amavasya,Trimbakeshwar Inner Ghats,2.97,12.47,1,2,26,0,34.8,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 57,2027-08-27,Normal Day,Outer Transit & Parking,2.18,13.62,0,1,56,1,34.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Tapovan,1.62,4.1,1,2,23,3,29.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Normal Day,Sadhugram,0.64,3.15,1,1,29,4,26.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Weekend,Tapovan,0.99,5.41,1,1,11,5,30.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Shahi Snan,Sadhugram,1.0,6.09,1,1,40,0,33.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Shahi Snan,Trimbakeshwar Inner Ghats,1.87,13.27,0,3,40,0,23.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Weekend,Tapovan,1.84,9.96,1,1,36,2,25.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Weekend,Trimbakeshwar Inner Ghats,2.8,14.38,0,3,40,6,23.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Normal Day,Ram Kund - Panchavati,2.18,9.38,1,2,19,4,29.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Normal Day,Sadhugram,1.12,5.32,1,1,36,4,26.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Amavasya,Tapovan,0.83,6.05,1,1,28,0,29.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 43,2027-08-13,Weekend,Tapovan,1.79,6.59,1,1,42,3,34.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Weekend,Sadhugram,0.85,3.51,1,1,3,7,28.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Normal Day,Trimbakeshwar Inner Ghats,2.54,13.73,0,3,32,2,23.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 11,2027-08-11,Normal Day,Trimbakeshwar Inner Ghats,2.71,8.86,1,2,10,3,34.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Weekend,Outer Transit & Parking,2.9,16.55,0,1,37,7,33.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Ram Kund - Panchavati,1.78,11.44,1,2,38,1,25.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 49,2027-08-19,Amavasya,Tapovan,1.72,4.9,1,1,48,0,25.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Amavasya,Ram Kund - Panchavati,1.35,6.14,1,2,13,0,29.1,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Weekend,Ram Kund - Panchavati,2.31,8.43,1,2,59,1,31.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Shahi Snan,Trimbakeshwar Inner Ghats,2.53,10.7,1,3,49,0,25.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Ram Kund - Panchavati,1.31,9.11,0,3,13,2,25.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Normal Day,Tapovan,1.35,5.14,0,1,40,2,26.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 6,2027-08-06,Normal Day,Trimbakeshwar Inner Ghats,2.58,14.04,0,3,5,7,27.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Amavasya,Trimbakeshwar Inner Ghats,2.63,14.36,1,2,20,0,27.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 6,2027-08-06,Amavasya,Outer Transit & Parking,2.39,16.3,0,1,5,0,33.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 47,2027-08-17,Weekend,Trimbakeshwar Inner Ghats,1.56,10.43,0,2,46,5,23.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 17,2027-08-17,Normal Day,Trimbakeshwar Inner Ghats,2.98,9.29,1,3,16,7,29.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Normal Day,Trimbakeshwar Inner Ghats,2.89,11.04,1,3,55,1,32.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Outer Transit & Parking,2.34,17.66,0,1,1,1,29.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Shahi Snan,Tapovan,1.83,9.54,1,2,7,0,31.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Ram Kund - Panchavati,1.97,9.04,0,1,39,1,32.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 19,2027-08-19,Normal Day,Trimbakeshwar Inner Ghats,2.25,8.85,1,2,18,3,30.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Sadhugram,0.98,6.77,1,1,11,2,30.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 11,2027-08-11,Normal Day,Sadhugram,1.28,4.33,1,1,10,1,24.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Weekend,Ram Kund - Panchavati,1.48,9.93,1,2,13,2,32.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Outer Transit & Parking,2.72,11.42,0,1,21,3,27.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Weekend,Outer Transit & Parking,2.8,11.72,0,1,45,1,22.2,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Outer Transit & Parking,2.06,12.97,0,1,11,1,25.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Normal Day,Outer Transit & Parking,2.49,15.9,0,1,29,1,28.2,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Normal Day,Trimbakeshwar Inner Ghats,3.13,9.07,0,3,51,2,34.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Outer Transit & Parking,2.58,13.6,0,1,49,3,25.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Amavasya,Outer Transit & Parking,3.11,14.1,0,1,9,0,30.8,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Normal Day,Ram Kund - Panchavati,1.77,7.78,1,2,57,5,30.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 25,2027-08-25,Normal Day,Sadhugram,1.33,3.34,1,1,24,3,27.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Amavasya,Ram Kund - Panchavati,2.27,6.06,0,1,58,0,22.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Shahi Snan,Tapovan,0.95,6.85,0,1,19,0,34.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Normal Day,Tapovan,1.07,6.23,1,1,20,7,30.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Shahi Snan,Trimbakeshwar Inner Ghats,1.84,15.1,1,2,7,0,32.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Weekend,Outer Transit & Parking,2.84,11.44,0,1,58,5,22.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 17,2027-08-17,Normal Day,Sadhugram,1.23,3.54,1,1,16,3,30.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Normal Day,Sadhugram,1.11,3.53,1,1,45,5,24.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Trimbakeshwar Inner Ghats,1.77,11.69,0,2,38,5,31.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Normal Day,Tapovan,1.54,8.13,1,1,44,6,28.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 3,2027-08-03,Amavasya,Tapovan,1.69,5.21,1,1,2,0,26.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Amavasya,Outer Transit & Parking,2.58,15.15,0,1,7,0,32.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Tapovan,1.63,4.02,1,1,23,3,32.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Normal Day,Sadhugram,1.06,5.8,1,1,3,4,29.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Weekend,Tapovan,1.19,7.82,0,2,36,1,31.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 27,2027-08-27,Normal Day,Ram Kund - Panchavati,1.55,9.59,1,3,26,1,34.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Weekend,Ram Kund - Panchavati,1.49,10.12,1,2,38,3,31.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Sadhugram,0.77,5.59,1,1,1,6,25.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Shahi Snan,Tapovan,1.07,6.26,1,1,51,0,27.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 55,2027-08-25,Weekend,Tapovan,0.81,4.34,1,1,54,5,27.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Shahi Snan,Ram Kund - Panchavati,1.31,6.34,0,1,57,0,25.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 51,2027-08-21,Normal Day,Tapovan,0.99,9.12,0,2,50,2,29.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 25,2027-08-25,Normal Day,Tapovan,1.88,4.13,1,2,24,2,29.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Weekend,Tapovan,1.67,5.15,1,1,58,1,34.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 7,2027-08-07,Shahi Snan,Outer Transit & Parking,2.23,11.8,0,1,6,0,25.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Outer Transit & Parking,2.81,16.33,0,1,13,3,29.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Weekend,Tapovan,1.93,9.1,1,1,29,1,27.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Trimbakeshwar Inner Ghats,2.85,11.98,0,3,21,7,29.1,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 32,2027-08-02,Weekend,Trimbakeshwar Inner Ghats,2.99,15.04,1,2,31,2,27.9,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Normal Day,Trimbakeshwar Inner Ghats,2.27,11.18,0,3,47,2,24.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Normal Day,Trimbakeshwar Inner Ghats,2.58,14.38,0,3,47,4,28.9,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Weekend,Sadhugram,0.67,5.54,1,1,21,6,29.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Normal Day,Outer Transit & Parking,2.47,16.39,0,1,43,6,34.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Shahi Snan,Outer Transit & Parking,3.0,15.08,0,1,59,0,24.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Amavasya,Sadhugram,0.51,5.8,1,1,9,0,28.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Normal Day,Outer Transit & Parking,2.44,17.35,0,1,58,2,23.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Weekend,Ram Kund - Panchavati,1.93,8.15,1,3,28,6,26.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Amavasya,Ram Kund - Panchavati,1.43,8.09,1,2,14,0,30.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 51,2027-08-21,Weekend,Ram Kund - Panchavati,2.77,9.8,0,2,50,3,26.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Ram Kund - Panchavati,1.32,6.46,1,3,39,7,24.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Outer Transit & Parking,2.98,17.51,0,1,1,2,33.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Weekend,Tapovan,0.8,5.01,1,1,39,6,24.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 25,2027-08-25,Normal Day,Sadhugram,0.98,3.09,1,1,24,6,27.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Shahi Snan,Sadhugram,1.3,3.09,1,1,45,0,34.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Weekend,Sadhugram,1.14,5.25,1,1,37,3,24.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 18,2027-08-18,Amavasya,Outer Transit & Parking,2.45,15.95,0,1,17,0,22.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Shahi Snan,Tapovan,1.51,9.35,0,1,40,0,25.1,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Trimbakeshwar Inner Ghats,2.75,12.2,0,3,13,3,22.8,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Shahi Snan,Outer Transit & Parking,2.12,17.29,0,1,41,0,28.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Normal Day,Outer Transit & Parking,3.05,11.9,0,1,37,4,28.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Normal Day,Trimbakeshwar Inner Ghats,3.12,12.81,1,3,29,4,30.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Normal Day,Trimbakeshwar Inner Ghats,1.91,11.76,0,3,36,7,30.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Normal Day,Outer Transit & Parking,2.81,16.83,0,1,28,4,22.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 27,2027-08-27,Normal Day,Outer Transit & Parking,2.6,10.36,0,1,26,2,25.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Amavasya,Ram Kund - Panchavati,1.38,8.07,1,3,37,0,28.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Normal Day,Trimbakeshwar Inner Ghats,2.64,10.07,1,2,43,6,31.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Shahi Snan,Outer Transit & Parking,2.95,10.41,0,1,0,0,25.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Weekend,Tapovan,1.6,4.55,1,1,39,6,33.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Sadhugram,1.17,6.39,1,1,21,7,26.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Weekend,Ram Kund - Panchavati,2.36,6.72,1,1,36,6,28.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Normal Day,Ram Kund - Panchavati,1.92,6.51,1,3,41,3,32.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Amavasya,Trimbakeshwar Inner Ghats,2.95,11.23,0,3,23,0,33.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Weekend,Trimbakeshwar Inner Ghats,2.96,15.33,0,2,47,6,29.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 32,2027-08-02,Weekend,Ram Kund - Panchavati,1.47,9.87,0,2,31,3,34.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Tapovan,1.21,4.43,1,1,38,4,30.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 34,2027-08-04,Normal Day,Trimbakeshwar Inner Ghats,1.78,15.78,0,3,33,1,28.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 3,2027-08-03,Normal Day,Tapovan,1.27,4.96,0,2,2,1,28.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Normal Day,Tapovan,1.33,9.97,1,1,22,3,29.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Ram Kund - Panchavati,2.07,6.92,1,2,23,2,31.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Outer Transit & Parking,2.51,12.16,0,1,11,1,34.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Weekend,Sadhugram,1.5,3.75,1,1,9,4,32.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 38,2027-08-08,Weekend,Tapovan,1.54,5.21,1,1,37,4,28.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Normal Day,Sadhugram,1.1,4.77,1,1,7,4,28.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Weekend,Ram Kund - Panchavati,1.44,8.78,1,2,52,7,33.2,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Weekend,Tapovan,1.48,6.65,1,2,29,3,26.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Normal Day,Trimbakeshwar Inner Ghats,2.47,15.65,0,2,49,5,33.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 18,2027-08-18,Normal Day,Ram Kund - Panchavati,1.7,7.54,0,3,17,2,24.9,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Shahi Snan,Sadhugram,1.03,6.16,1,1,52,0,30.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 17,2027-08-17,Amavasya,Ram Kund - Panchavati,1.54,11.74,0,3,16,0,30.8,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Normal Day,Ram Kund - Panchavati,1.31,6.03,1,3,20,4,32.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 37,2027-08-07,Amavasya,Sadhugram,0.59,5.44,1,1,36,0,23.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Normal Day,Sadhugram,1.08,6.49,1,1,32,4,22.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Normal Day,Tapovan,1.75,8.24,0,1,4,3,27.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Sadhugram,1.34,5.74,1,1,1,4,24.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Sadhugram,0.62,7.44,1,1,21,4,28.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Weekend,Trimbakeshwar Inner Ghats,2.29,9.88,0,2,38,3,29.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 47,2027-08-17,Normal Day,Sadhugram,1.0,4.42,1,1,46,2,23.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Weekend,Ram Kund - Panchavati,1.27,7.66,1,1,0,3,32.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 57,2027-08-27,Normal Day,Outer Transit & Parking,3.4,16.61,0,1,56,1,23.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 54,2027-08-24,Weekend,Tapovan,1.89,6.26,1,1,53,3,30.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Normal Day,Ram Kund - Panchavati,2.28,6.83,0,3,55,6,24.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 18,2027-08-18,Weekend,Ram Kund - Panchavati,2.45,9.86,0,1,17,1,34.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Normal Day,Ram Kund - Panchavati,2.22,10.62,0,3,28,1,24.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Weekend,Ram Kund - Panchavati,2.61,7.29,1,2,39,3,25.8,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Normal Day,Trimbakeshwar Inner Ghats,2.6,11.16,1,2,44,2,33.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Normal Day,Tapovan,1.63,5.45,1,2,32,1,31.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Shahi Snan,Sadhugram,0.9,5.65,1,1,29,0,29.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Shahi Snan,Trimbakeshwar Inner Ghats,2.8,11.64,0,2,23,0,23.7,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Amavasya,Outer Transit & Parking,2.57,12.94,0,1,4,0,24.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Tapovan,1.48,7.41,1,1,13,4,33.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Weekend,Sadhugram,0.79,4.04,1,1,49,4,24.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 30,2027-08-30,Shahi Snan,Tapovan,1.7,6.84,0,2,29,0,34.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Weekend,Trimbakeshwar Inner Ghats,1.63,10.93,0,2,32,7,23.8,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Weekend,Sadhugram,1.41,3.82,1,1,58,3,30.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Amavasya,Trimbakeshwar Inner Ghats,2.73,12.31,0,3,20,0,31.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Normal Day,Ram Kund - Panchavati,1.59,9.0,1,1,57,3,25.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Amavasya,Tapovan,1.02,6.75,1,2,32,0,28.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Normal Day,Sadhugram,0.74,7.8,1,1,47,6,24.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Shahi Snan,Sadhugram,1.07,4.3,1,1,58,0,27.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Weekend,Tapovan,1.68,6.13,1,1,0,6,34.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Shahi Snan,Outer Transit & Parking,3.16,12.48,0,1,51,0,25.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 47,2027-08-17,Shahi Snan,Tapovan,1.4,4.07,0,1,46,0,34.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 3,2027-08-03,Normal Day,Sadhugram,0.68,5.57,1,1,2,6,32.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Trimbakeshwar Inner Ghats,1.99,11.18,1,3,39,1,22.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Weekend,Ram Kund - Panchavati,1.25,6.35,1,1,38,1,30.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Amavasya,Ram Kund - Panchavati,2.67,6.61,1,1,11,0,22.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 9,2027-08-09,Normal Day,Ram Kund - Panchavati,1.56,8.59,1,2,8,4,27.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 54,2027-08-24,Normal Day,Tapovan,1.74,6.86,1,1,53,3,29.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Normal Day,Sadhugram,1.14,4.82,1,1,35,1,25.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 51,2027-08-21,Normal Day,Sadhugram,1.19,6.86,1,1,50,2,30.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 28,2027-08-28,Normal Day,Ram Kund - Panchavati,1.66,11.59,1,2,27,1,28.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Normal Day,Ram Kund - Panchavati,1.69,7.82,0,1,58,2,31.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Shahi Snan,Sadhugram,1.24,7.24,1,1,39,0,27.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 17,2027-08-17,Weekend,Sadhugram,0.84,8.0,1,1,16,1,27.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 33,2027-08-03,Normal Day,Outer Transit & Parking,2.57,13.32,0,1,32,1,31.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Weekend,Ram Kund - Panchavati,2.21,6.78,1,2,21,7,31.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Normal Day,Ram Kund - Panchavati,2.32,10.29,1,3,55,6,31.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Normal Day,Sadhugram,0.71,6.33,1,1,3,1,24.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Normal Day,Ram Kund - Panchavati,2.72,8.98,1,1,43,4,32.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Normal Day,Trimbakeshwar Inner Ghats,2.55,14.75,0,3,7,5,28.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Weekend,Ram Kund - Panchavati,2.01,10.31,1,1,58,1,32.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 49,2027-08-19,Normal Day,Tapovan,1.55,5.9,1,1,48,4,22.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Normal Day,Sadhugram,1.13,4.24,1,1,51,7,24.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 26,2027-08-26,Normal Day,Ram Kund - Panchavati,2.17,7.48,1,1,25,6,26.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Weekend,Sadhugram,1.44,6.21,1,1,3,2,30.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 7,2027-08-07,Normal Day,Outer Transit & Parking,2.41,13.46,0,1,6,2,34.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Normal Day,Outer Transit & Parking,2.82,17.83,0,1,58,1,29.2,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Ram Kund - Panchavati,1.53,8.9,0,1,23,2,30.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Shahi Snan,Sadhugram,0.67,7.63,1,1,35,0,22.9,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Sadhugram,0.52,7.83,1,1,38,2,25.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Weekend,Ram Kund - Panchavati,2.04,7.5,0,1,40,4,23.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Normal Day,Sadhugram,1.09,6.51,1,1,52,2,30.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Ram Kund - Panchavati,2.07,11.64,0,2,23,7,30.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Weekend,Tapovan,0.91,8.49,1,1,0,3,25.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 27,2027-08-27,Normal Day,Ram Kund - Panchavati,1.57,9.28,1,2,26,7,24.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Normal Day,Trimbakeshwar Inner Ghats,1.86,10.17,0,2,0,2,28.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Weekend,Tapovan,1.25,6.0,1,1,35,4,28.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 16,2027-08-16,Normal Day,Ram Kund - Panchavati,1.67,10.62,1,1,15,7,32.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Normal Day,Trimbakeshwar Inner Ghats,2.63,14.3,0,3,22,6,25.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 9,2027-08-09,Normal Day,Trimbakeshwar Inner Ghats,2.21,12.0,1,3,8,5,24.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Weekend,Outer Transit & Parking,2.32,12.25,0,1,28,1,31.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Shahi Snan,Outer Transit & Parking,2.11,11.49,0,1,9,0,30.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Amavasya,Outer Transit & Parking,2.67,16.45,0,1,49,0,22.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Weekend,Ram Kund - Panchavati,2.53,10.74,1,3,21,2,34.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Normal Day,Tapovan,1.08,5.91,1,1,22,2,32.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 21,2027-08-21,Weekend,Ram Kund - Panchavati,1.86,6.08,0,2,20,3,27.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Weekend,Trimbakeshwar Inner Ghats,1.78,8.02,1,3,13,1,28.7,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 35,2027-08-05,Normal Day,Trimbakeshwar Inner Ghats,1.86,10.49,0,2,34,1,25.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 35,2027-08-05,Normal Day,Trimbakeshwar Inner Ghats,2.21,14.03,1,3,34,7,27.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Normal Day,Outer Transit & Parking,2.8,10.92,0,1,52,4,29.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 27,2027-08-27,Normal Day,Outer Transit & Parking,2.77,10.91,0,1,26,7,31.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Shahi Snan,Ram Kund - Panchavati,2.47,6.41,1,2,1,0,30.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 53,2027-08-23,Weekend,Trimbakeshwar Inner Ghats,2.69,14.02,0,3,52,5,24.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Outer Transit & Parking,3.32,13.73,0,1,11,6,23.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 55,2027-08-25,Normal Day,Tapovan,0.88,9.26,1,1,54,2,34.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 31,2027-08-01,Normal Day,Tapovan,1.08,9.66,0,1,30,7,22.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 43,2027-08-13,Weekend,Sadhugram,0.87,3.23,1,1,42,2,26.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 23,2027-08-23,Amavasya,Ram Kund - Panchavati,2.21,6.57,0,1,22,0,29.6,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 47,2027-08-17,Normal Day,Tapovan,1.76,7.11,0,2,46,5,30.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 24,2027-08-24,Normal Day,Trimbakeshwar Inner Ghats,1.94,12.84,0,3,23,1,33.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 19,2027-08-19,Normal Day,Tapovan,1.66,6.32,1,1,18,3,29.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Weekend,Tapovan,1.79,7.96,1,1,41,2,31.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Normal Day,Sadhugram,0.77,3.95,1,1,38,2,31.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 49,2027-08-19,Normal Day,Outer Transit & Parking,3.14,11.5,0,1,48,5,23.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Weekend,Trimbakeshwar Inner Ghats,2.29,10.11,0,3,9,2,32.7,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 54,2027-08-24,Weekend,Ram Kund - Panchavati,1.72,11.41,1,3,53,6,33.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Normal Day,Outer Transit & Parking,3.5,12.61,0,1,4,1,31.7,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 35,2027-08-05,Shahi Snan,Sadhugram,0.8,4.59,1,1,34,0,34.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Amavasya,Outer Transit & Parking,2.85,12.5,0,1,47,0,30.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Weekend,Sadhugram,0.91,5.01,1,1,0,7,27.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Normal Day,Outer Transit & Parking,3.06,13.11,0,1,45,3,25.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 32,2027-08-02,Shahi Snan,Trimbakeshwar Inner Ghats,1.86,15.97,1,3,31,0,32.5,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 31,2027-08-01,Weekend,Ram Kund - Panchavati,2.53,8.17,1,1,30,7,34.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Weekend,Ram Kund - Panchavati,1.45,9.82,1,1,38,2,31.2,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 51,2027-08-21,Normal Day,Ram Kund - Panchavati,1.23,10.67,1,2,50,1,32.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 36,2027-08-06,Normal Day,Outer Transit & Parking,2.96,10.63,0,1,35,6,31.6,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Normal Day,Sadhugram,0.92,3.42,1,1,3,1,29.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Amavasya,Sadhugram,0.79,7.01,1,1,44,0,35.0,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 42,2027-08-12,Normal Day,Tapovan,1.54,9.64,1,1,41,4,26.5,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 57,2027-08-27,Weekend,Tapovan,1.26,4.43,1,1,56,1,28.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Normal Day,Tapovan,1.44,9.91,0,1,4,3,22.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Weekend,Outer Transit & Parking,2.38,12.84,0,1,13,1,30.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 11,2027-08-11,Normal Day,Outer Transit & Parking,3.17,10.61,0,1,10,6,34.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 34,2027-08-04,Amavasya,Sadhugram,1.3,3.69,1,1,33,0,29.5,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Normal Day,Sadhugram,1.38,5.21,1,1,0,1,34.8,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 28,2027-08-28,Normal Day,Tapovan,1.49,8.0,1,2,27,5,26.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Normal Day,Outer Transit & Parking,2.56,11.56,0,1,59,6,28.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Sadhugram,1.3,3.62,1,1,39,1,31.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 54,2027-08-24,Normal Day,Outer Transit & Parking,2.77,15.89,0,1,53,6,28.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Shahi Snan,Ram Kund - Panchavati,1.65,6.79,1,1,44,0,33.1,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 55,2027-08-25,Normal Day,Tapovan,1.49,7.35,1,2,54,4,25.3,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 11,2027-08-11,Weekend,Outer Transit & Parking,2.33,11.75,0,1,10,4,33.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 1,2027-08-01,Normal Day,Trimbakeshwar Inner Ghats,2.85,13.02,1,2,0,6,28.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 57,2027-08-27,Normal Day,Tapovan,1.53,9.55,1,1,56,7,22.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Weekend,Outer Transit & Parking,2.64,14.78,0,1,9,3,35.0,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 41,2027-08-11,Amavasya,Outer Transit & Parking,3.14,10.36,0,1,40,0,30.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 29,2027-08-29,Normal Day,Ram Kund - Panchavati,1.4,9.76,0,3,28,5,34.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 44,2027-08-14,Normal Day,Trimbakeshwar Inner Ghats,2.53,10.25,0,2,43,1,32.4,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 35,2027-08-05,Normal Day,Sadhugram,0.71,5.78,1,1,34,4,33.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 32,2027-08-02,Weekend,Sadhugram,0.73,4.73,1,1,31,5,22.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 39,2027-08-09,Shahi Snan,Sadhugram,1.1,6.27,1,1,38,0,24.5,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 45,2027-08-15,Weekend,Trimbakeshwar Inner Ghats,1.98,15.71,0,3,44,2,31.2,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 19,2027-08-19,Weekend,Sadhugram,0.58,5.21,1,1,18,2,25.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 56,2027-08-26,Shahi Snan,Tapovan,0.87,4.55,0,1,55,0,24.0,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 55,2027-08-25,Shahi Snan,Ram Kund - Panchavati,1.5,6.03,0,3,54,0,30.4,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 46,2027-08-16,Normal Day,Sadhugram,0.51,4.06,1,1,45,1,30.6,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 52,2027-08-22,Normal Day,Tapovan,1.71,5.77,1,1,51,2,27.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 50,2027-08-20,Weekend,Trimbakeshwar Inner Ghats,2.75,12.25,0,3,49,1,25.9,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 10,2027-08-10,Weekend,Ram Kund - Panchavati,2.07,11.41,1,2,9,1,30.6,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 34,2027-08-04,Amavasya,Tapovan,1.93,4.5,1,2,33,0,23.3,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Normal Day,Outer Transit & Parking,2.32,10.54,0,1,7,7,29.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 48,2027-08-18,Normal Day,Tapovan,1.47,5.48,1,2,47,5,22.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Weekend,Tapovan,1.63,6.75,1,2,3,1,25.3,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 5,2027-08-05,Amavasya,Ram Kund - Panchavati,2.63,10.76,0,1,4,0,29.2,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 22,2027-08-22,Normal Day,Ram Kund - Panchavati,2.11,7.1,0,2,21,7,31.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 8,2027-08-08,Normal Day,Trimbakeshwar Inner Ghats,2.66,12.25,0,3,7,7,27.3,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 59,2027-08-29,Normal Day,Tapovan,1.66,4.41,1,1,58,4,30.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Normal Day,Sadhugram,1.44,3.23,1,1,13,4,26.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 58,2027-08-28,Normal Day,Sadhugram,1.25,5.66,1,1,57,3,29.0,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 2,2027-08-02,Normal Day,Sadhugram,0.66,4.1,1,1,1,7,28.7,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 14,2027-08-14,Weekend,Sadhugram,1.23,7.79,1,1,13,3,24.9,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 6,2027-08-06,Weekend,Sadhugram,0.54,6.9,1,1,5,2,27.2,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 40,2027-08-10,Normal Day,Outer Transit & Parking,3.41,11.9,0,1,39,1,23.4,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 31,2027-08-01,Normal Day,Tapovan,1.49,5.95,0,1,30,2,22.1,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 20,2027-08-20,Shahi Snan,Trimbakeshwar Inner Ghats,1.9,9.69,1,3,19,0,27.7,Extreme,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 60,2027-08-30,Weekend,Outer Transit & Parking,2.91,15.28,0,1,59,1,30.9,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 12,2027-08-12,Normal Day,Ram Kund - Panchavati,2.62,8.52,1,3,11,1,32.1,High,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 54,2027-08-24,Normal Day,Tapovan,1.27,4.6,0,2,53,1,29.8,Medium,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 15,2027-08-15,Normal Day,Sadhugram,1.45,4.52,1,1,14,6,25.4,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
+Nashik 2027 Simulation Day 4,2027-08-04,Normal Day,Tapovan,1.49,6.36,0,1,3,1,22.1,Low,1,Generated: Domain-driven synthetic row using Nashik 2027 infrastructure parameters.
