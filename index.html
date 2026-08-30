@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumbh Mela Crowd-Risk Prediction System (Nashik 2027)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --border-color: #334155;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --primary: #38bdf8;
+            --primary-hover: #0284c7;
+            --risk-low: #10b981;
+            --risk-medium: #f59e0b;
+            --risk-high: #f97316;
+            --risk-extreme: #ef4444;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.5;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        .badge-tag {
+            display: inline-block;
+            background: #334155;
+            color: var(--primary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 850px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .card-header {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+
+        label {
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            background: #0f172a;
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 9px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--primary);
+        }
+
+        .btn-submit {
+            grid-column: span 2;
+            background: var(--primary);
+            color: #0f172a;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 8px;
+        }
+
+        .btn-submit:hover {
+            background: var(--primary-hover);
+        }
+
+        /* Results Panel Styling */
+        .risk-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #0f172a;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 16px;
+        }
+
+        .risk-pill {
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .risk-Low { background: rgba(16, 185, 129, 0.15); color: var(--risk-low); border: 1px solid var(--risk-low); }
+        .risk-Medium { background: rgba(245, 158, 11, 0.15); color: var(--risk-medium); border: 1px solid var(--risk-medium); }
+        .risk-High { background: rgba(249, 115, 22, 0.15); color: var(--risk-high); border: 1px solid var(--risk-high); }
+        .risk-Extreme { background: rgba(239, 68, 68, 0.15); color: var(--risk-extreme); border: 1px solid var(--risk-extreme); }
+
+        .confidence-box {
+            text-align: right;
+        }
+
+        .confidence-val {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #ffffff;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .confidence-lbl {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .prob-bar-container {
+            margin-bottom: 12px;
+        }
+
+        .prob-label-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            margin-bottom: 4px;
+        }
+
+        .prob-track {
+            background: #0f172a;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .prob-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.4s ease;
+        }
+
+        .advisory-box {
+            background: #0f172a;
+            border-left: 4px solid var(--primary);
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: #e2e8f0;
+            margin-top: 16px;
+        }
+
+        .advisory-title {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 4px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        .placeholder-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kumbh Mela Crowd-Risk Prediction System</h1>
+            <p>Nashik-Trimbakeshwar Simhastha 2027 Access & Infrastructure Planning Model</p>
+            <span class="badge-tag">AIML Mini-Project | Backend ML Model: REST API</span>
+        </header>
+
+        <div class="grid-layout">
+            <!-- Left Column: Input Form -->
+            <div class="card">
+                <div class="card-header">Input Parameters & Access Features</div>
+                <form id="riskForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="day_type">Day Type Category</label>
+                            <select id="day_type" required>
+                                <option value="Normal Day">Normal Day</option>
+                                <option value="Weekend">Weekend</option>
+                                <option value="Amavasya">Amavasya (Sacred New Moon)</option>
+                                <option value="Shahi Snan" selected>Shahi Snan (Royal Dip)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sector_zone">Sector Zone</label>
+                            <select id="sector_zone" required>
+                                <option value="Ram Kund - Panchavati" selected>Ram Kund - Panchavati</option>
+                                <option value="Tapovan">Tapovan (Camp / Holding)</option>
+                                <option value="Sadhugram">Sadhugram Tent City</option>
+                                <option value="Trimbakeshwar Inner Ghats">Trimbakeshwar Inner Ghats</option>
+                                <option value="Outer Transit & Parking">Outer Transit & Parking</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="parking_walk_km">Parking-to-Ghat Walk (km)</label>
+                            <input type="number" id="parking_walk_km" step="0.1" min="0.1" max="5.0" value="1.8" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="shuttle_distance_km">Shuttle Bus Route (km)</label>
+                            <input type="number" id="shuttle_distance_km" step="0.5" min="1.0" max="25.0" value="8.0" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="has_expanded_ghat">Expanded Ghat Area?</label>
+                            <select id="has_expanded_ghat" required>
+                                <option value="1" selected>Yes (Expanded Standing Capacity)</option>
+                                <option value="0">No (Unexpanded / Narrow Choke Point)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="throughput_tier">Throughput Tier</label>
+                            <select id="throughput_tier" required>
+                                <option value="1">Tier 1: High (Multi-bridge Access)</option>
+                                <option value="2" selected>Tier 2: Moderate</option>
+                                <option value="3">Tier 3: Bottlenecked</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="days_since_start">Days Since Event Start</label>
+                            <input type="number" id="days_since_start" min="0" max="60" value="15" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="festival_proximity_days">Days to Peak Bathing Date</label>
+                            <input type="number" id="festival_proximity_days" min="0" max="10" value="0" required>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="temperature_c">Ambient Temperature (°C)</label>
+                            <input type="number" id="temperature_c" step="0.5" min="15.0" max="45.0" value="28.5" required>
+                        </div>
+
+                        <button type="submit" class="btn-submit" id="submitBtn">Predict Crowd-Risk Level</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Right Column: Prediction Results -->
+            <div class="card">
+                <div class="card-header">Model Prediction & Risk Analysis</div>
+                <div id="resultsContent">
+                    <div class="placeholder-text">
+                        Select event parameters and click "Predict Crowd-Risk Level" to evaluate risks.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            Kumbh Mela Crowd-Risk Prediction System &bull; 3rd Year AIML Mini-Project &bull; Nashik-Trimbakeshwar Simhastha 2027 Planning Tool
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('riskForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            const resultsContent = document.getElementById('resultsContent');
+            
+            submitBtn.textContent = 'Calculating Prediction...';
+            submitBtn.disabled = true;
+
+            const payload = {
+                day_type: document.getElementById('day_type').value,
+                sector_zone: document.getElementById('sector_zone').value,
+                parking_walk_km: parseFloat(document.getElementById('parking_walk_km').value),
+                shuttle_distance_km: parseFloat(document.getElementById('shuttle_distance_km').value),
+                has_expanded_ghat: parseInt(document.getElementById('has_expanded_ghat').value),
+                throughput_tier: parseInt(document.getElementById('throughput_tier').value),
+                days_since_start: parseInt(document.getElementById('days_since_start').value),
+                festival_proximity_days: parseInt(document.getElementById('festival_proximity_days').value),
+                temperature_c: parseFloat(document.getElementById('temperature_c').value)
+            };
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    renderResult(result);
+                } else {
+                    resultsContent.innerHTML = `<div class="placeholder-text" style="color: var(--risk-extreme);">Error: ${result.message}</div>`;
+                }
+            } catch (err) {
+                resultsContent.innerHTML = `<div class="placeholder-text" style="color: var(--risk-extreme);">Failed to connect to /predict backend API. Ensure Flask server is running.</div>`;
+            } finally {
+                submitBtn.textContent = 'Predict Crowd-Risk Level';
+                submitBtn.disabled = false;
+            }
+        });
+
+        function renderResult(data) {
+            const risk = data.predicted_risk_level;
+            const conf = Math.round(data.confidence_score * 100);
+            const probs = data.probabilities || {};
+
+            const probColors = {
+                'Low': 'var(--risk-low)',
+                'Medium': 'var(--risk-medium)',
+                'High': 'var(--risk-high)',
+                'Extreme': 'var(--risk-extreme)'
+            };
+
+            let probBarsHtml = '';
+            ['Low', 'Medium', 'High', 'Extreme'].forEach(label => {
+                const val = Math.round((probs[label] || 0) * 100);
+                probBarsHtml += `
+                    <div class="prob-bar-container">
+                        <div class="prob-label-row">
+                            <span>${label} Risk</span>
+                            <span style="font-family: 'JetBrains Mono'; font-weight: 600;">${val}%</span>
+                        </div>
+                        <div class="prob-track">
+                            <div class="prob-fill" style="width: ${val}%; background: ${probColors[label]};"></div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            const html = `
+                <div class="risk-banner">
+                    <div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2px;">Predicted Risk Category</div>
+                        <span class="risk-pill risk-${risk}">${risk} Risk</span>
+                    </div>
+                    <div class="confidence-box">
+                        <div class="confidence-val">${conf}%</div>
+                        <div class="confidence-lbl">Model Confidence</div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 16px;">
+                    <div style="font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; color: var(--text-muted);">PROBABILITY DISTRIBUTION Across RISK CLASSES</div>
+                    ${probBarsHtml}
+                </div>
+
+                <div class="advisory-box">
+                    <div class="advisory-title">Infrastructure & Crowd Management Advisory</div>
+                    <div>${data.advisory || 'No specific advisory for current configuration.'}</div>
+                </div>
+
+                <div style="margin-top: 14px; font-size: 0.75rem; color: var(--text-muted); text-align: right;">
+                    Evaluated by Model: <strong>${data.model_used}</strong>
+                </div>
+            `;
+
+            document.getElementById('resultsContent').innerHTML = html;
+        }
+    </script>
+</body>
+</html>
